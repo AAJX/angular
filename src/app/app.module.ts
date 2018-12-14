@@ -15,6 +15,8 @@ import { AddProjectComponent } from './project-container/add-project/add-project
 
 import { RenderProjectComponent } from './project-container/render-project/render-project.component';
 import { MygodComponent } from './project-container/mygod/mygod.component';
+import { MatInputModule, MatButtonModule, MatCheckboxModule,MatSnackBarModule } from '@angular/material';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -35,7 +37,13 @@ import { MygodComponent } from './project-container/mygod/mygod.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatSnackBarModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

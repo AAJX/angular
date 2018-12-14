@@ -13,4 +13,8 @@ export class ProjectService {
   getProjectbyId =(id : string)=>{
    return this.http.get(API_URI + "/" + id);
   }
+
+  public addProject = (project:Project) =>{
+   return this.http.post(API_URI, project)
+  }
 }
