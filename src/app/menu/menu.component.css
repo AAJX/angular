@@ -1,0 +1,21 @@
+#menu{
+    background: #444;
+}
+#menu #menu-left{
+    float: left;
+    color: #fff;
+}
+
+#menu #menu-right{
+    float: right;
+    text-align: right;
+}
+#menu #menu-right ul li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+#menu #menu-right ul li a{
+    color: #fff;
+}
